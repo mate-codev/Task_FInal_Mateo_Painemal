@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../style/style2.css" />
+		<title>Olympus Gym - Raffle</title>
+	</head>
+
+	<body>
+		<div class="body-index">
+			<header class="header">
+				<div class="logo">
+					<a href="./index.html"
+						><img src="../assets/images/logo.png" alt="Logo"
+					/></a>
+				</div>
+				<nav>
+					<ul class="nav-link">
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../pages/aboutus.html">About Us</a></li>
+						<li><a href="../pages/contact.html">Contact</a></li>
+						<li><a href="../pages/schedule.html">Schedule</a></li>
+						<li><a href="../pages/benefits.html">Benefits and Tips</a></li>
+						<li><a href="#">Raffle</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="container-raffle">
+				<div class="title-raflle">
+					<h1>Olympus Gym</h1>
+					<h3>Every month in this section you can participate in a raffle.</h3>
+				</div>
+			</div>
+			<div class="form">
+				<div class="img-form">
+					<img src="../assets/images/icon.png" alt="image" />
+					<img src="../assets/images/Forms_Final2.png" alt="image" />
+				</div>
+				<div class="form-raffle">
+					<form action="./show_data.html" method="get">
+						<fieldset class="raffle-1">
+							<legend class="legend">
+								Participate in our raffle for a month of personalized training
+							</legend>
+							<label for="first-name">First Name</label>
+							<input
+								class="text-input"
+								type="text"
+								name="First Name"
+								id="first-name"
+							/>
+							<br />
+							<label for="last-name">Last Name</label>
+							<input
+								class="text-input"
+								type="text"
+								name="Last Name"
+								id="last-name"
+							/>
+							<br />
+							<label for="email">Email</label>
+							<input class="text-input" type="text" name="Email" id="email" />
+						</fieldset>
+						<fieldset class="raffle-2">
+							<label class="legend-1" for="gender">Choose Gender</label>
+							<select class="select-input" name="gender" id="gender">
+								<option value="">Choose Your Gender</option>
+								<option value="f">female</option>
+								<option value="m">male</option>
+								<option value="x">others</option>
+							</select>
+						</fieldset>
+						<fieldset class="raffle-3">
+							<select class="select-input" name="country" id="country">
+								<option value="">Country</option>
+								<option value="arg">Argentina</option>
+								<option value="col">Colombia</option>
+								<option value="cl">Chile</option>
+								<option value="uyu">Uruguay</option>
+								<option value="es">España</option>
+							</select>
+						</fieldset>
+						<fieldset class="raffle-4">
+							<legend class="legend-4">Payment Options</legend>
+							<div class="input-4">
+								<label id="text-4" for="cash">Cash</label>
+								<input type="radio" name="money" id="cash" value="cash" />
+							</div>
+							<div class="input-4">
+								<label id="text-5" for="credit-card">Credit Card</label>
+								<input type="radio" name="money" id="credit-card" value="cc" />
+							</div>
+							<fieldset class="input-4">
+								<label id="text-6" for="debit-card">Debit Card</label>
+								<input type="radio" name="money" id="debit-card" value="dc" />
+							</fieldset>
+						</fieldset>
+						<fieldset class="raffle-5">
+							<legend class="legend-s">Services</legend>
+							<textarea name="serv" id="serv" cols="30" rows="10"></textarea>
+						</fieldset>
+						<div class="raffle-6">
+							<label for="conditions">Accept Terms and Conditions...</label>
+							<input
+								type="checkbox"
+								name="temscondition"
+								id="conditions"
+								value="Accept"
+							/>
+						</div>
+						<input class="summit" type="submit" value="Send" />
+					</form>
+				</div>
+			</div>
+			<footer class="iframe">
+				<iframe
+					class="iframe-2"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6356401.189028048!2d-74.10198310520688!3d-38.93057071847415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960c69220df16cfd%3A0xbde84fb8c586373f!2sOLYMPUS%20GYM!5e0!3m2!1ses-419!2sar!4v1678995231671!5m2!1ses-419!2sar"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</footer>
+		</div>
+	</body>
+</html>
